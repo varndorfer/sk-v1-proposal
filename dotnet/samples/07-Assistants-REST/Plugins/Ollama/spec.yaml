@@ -1,0 +1,13 @@
+$schema: https://azuremlschemas.azureedge.net/latest/asset.plugin.schema.json
+
+type: plugins
+version: 0.0.1
+name: sk-ollama-math-plugin
+display_name: Semantic Kernel Ollama Math Plugin
+description: Semantic Kernel Demo - Ollama Math Plugin
+
+tags:
+  framework: semantic kernel
+
+src_uri: ./
+entry_point: Math.prompt.yaml

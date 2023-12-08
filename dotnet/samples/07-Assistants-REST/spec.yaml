@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/asset.plugin.schema.json
+
+type: semantickernels
+version: 0.0.1
+name: sk-demo-app
+display_name: Semantic Kernel Demo App
+description: Semantic Kernel Demo App
+
+src_uri: ./
+entry_point: Program.cs

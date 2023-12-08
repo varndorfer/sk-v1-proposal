@@ -1,0 +1,14 @@
+$schema: https://azuremlschemas.azureedge.net/latest/asset.plugin.schema.json
+
+type: plugins
+version: 0.0.1
+name: sk-math-plugin
+display_name: Semantic Kernel Math Plugin
+description: Semantic Kernel Demo - Math Plugin
+
+tags:
+  framework: semantic kernel
+
+src_uri: ./
+entry_point: Math.cs
+# azureml://registries/UnsecureTest-vaarndor/plugins/sk-math-plugin/versions/0.0.1
